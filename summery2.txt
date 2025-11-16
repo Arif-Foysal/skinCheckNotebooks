@@ -1,0 +1,32 @@
+================================================================================
+ABLATION STUDY SUMMARY REPORT
+Model: ResNet50, VIT
+================================================================================
+
+1. CONFIGURATIONS TESTED
+================================================================================
+
+C1: No Preprocessing:
+  - use_hair_removal: False
+  - use_noise_reduction: False
+  - use_segmentation: False
+  - mask_dir: None
+
+C4: Ground Truth Segmentation Only:
+  - use_hair_removal: False
+  - use_noise_reduction: False
+  - use_segmentation: True
+  - mask_dir: /kaggle/input/ham10000-lesion-segmentations/HAM10000_segmentations_lesion_tschandl
+
+C6: Hair Removal + Ground Truth Segmentation:
+  - use_hair_removal: True
+  - use_noise_reduction: False
+  - use_segmentation: True
+  - mask_dir: /kaggle/input/ham10000-lesion-segmentations/HAM10000_segmentations_lesion_tschandl
+
+C7: Full Pipeline (Hair + Noise + GT Masks):
+  - use_hair_removal: True
+  - use_noise_reduction: True
+  - use_segmentation: True
+  - mask_dir: /kaggle/input/ham10000-lesion-segmentations/HAM10000_segmentations_lesion_tschandl
+
