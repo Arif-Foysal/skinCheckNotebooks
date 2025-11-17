@@ -16,7 +16,7 @@
 ---
 
 ## Slide 2: The Clinical Challenge
-**Speech**: "Let me start with the stakes. Melanoma kills one person every hour in the United States. But here's the remarkable thing - if we catch it early, the 5-year survival rate jumps from just 27% to 99%. This is why automated skin lesion classification isn't just a computer vision problem - it's a life-saving technology.
+**Speech**: "Let me start with the stakes. Melanoma kills two person every hour in the United States. But here's the remarkable thing - if we catch it early, the 5-year survival rate jumps from just 27% to 99%. This is why automated skin lesion classification isn't just a computer vision problem - it's a life-saving technology.
 
 The challenge is deployment. We have AI systems that perform well in labs, but translating them to real clinical settings involves complex decisions about preprocessing pipelines. And that's where our research begins."
 
@@ -36,7 +36,7 @@ But as engineers and scientists, we should question assumptions. What if this co
 ---
 
 ## Slide 4: Research Objectives & Innovation
-**Speech**: "Our study had four primary objectives. First, systematically evaluate individual versus combined preprocessing techniques. Second, compare how different architectures - specifically CNNs versus Vision Transformers - respond to these techniques. Third, provide evidence-based recommendations for clinical deployment. And fourth, challenge the 'more preprocessing equals better performance' paradigm.
+**Speech**: "Our study had three primary objectives. First, systematically evaluate individual versus combined preprocessing techniques. Second, compare how different architectures - specifically CNNs versus Vision Transformers - respond to these techniques. Third, provide evidence-based recommendations for clinical deployment. And fourth, challenge the 'more preprocessing equals better performance' paradigm.
 
 The innovation here is that this is the first systematic ablation study comparing preprocessing effectiveness across fundamentally different neural network architectures. We're not just asking 'what works' - we're asking 'what works for whom?'"
 
